@@ -2,6 +2,10 @@
   
   
   
-  function greetingJavascript(msg)  {console.log(msg);}
+  function greetingJavascript(msg)  
+  {
+	 document.write(msg);
+	  
+}
   
   greetingJavascript(message);
